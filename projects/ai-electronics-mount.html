@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Planned independent mechanical engineering project: AI-assisted parametric CAD, FEA and prototype validation for a lightweight electronics mounting bracket.">
+<title>AI-Assisted Electronics Mount — Proposed Project | Lina Torlak</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+.plan-wrap{max-width:940px;margin:auto;padding:70px 28px 85px}
+.plan-wrap h1{font-size:clamp(32px,4.2vw,53px);color:#193a44;margin:22px 0 18px}
+.plan-wrap h2{font-size:25px;color:#234854;margin-top:38px}
+.plan-wrap p,.plan-wrap li{color:#3d5860;line-height:1.75}
+.plan-meta{display:inline-block;padding:8px 12px;background:#faebdf;color:#754b38;border:1px solid #e6c6af;font-size:12px;font-weight:800;letter-spacing:.08em;border-radius:5px}
+.plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}
+.plan-card{background:#eef3ef;border:1px solid #d8e4dd;border-radius:7px;padding:20px}
+.plan-card strong{display:block;font-size:16px;color:#20444e}
+.plan-card p{font-size:13px;margin:8px 0 0}
+.plan-table{border-collapse:collapse;width:100%;font-size:14px}
+.plan-table td,.plan-table th{text-align:left;padding:11px;border-bottom:1px solid #d8e2dc;vertical-align:top}
+.plan-table th{background:#eaf0eb;color:#244751}
+.plan-note{background:#f3ece4;border-left:4px solid #c48d67;padding:18px 22px;color:#634b3e}
+@media(max-width:650px){.plan-grid{grid-template-columns:1fr}.plan-wrap{padding:50px 20px}}
+</style>
+</head><body><header class="site-header"><div class="wrap nav"><a class="identity" href="../index.html"><span class="mark">LT<span>.</span></span><span>MECHANICAL<br>ENGINEERING</span></a><nav aria-label="Main navigation"><a href="../index.html#projects">All projects</a><a href="../index.html#about">About</a></nav></div></header>
+<main class="plan-wrap">
+<a href="../index.html#ai-electronics-mount">← Back to portfolio</a>
+<p class="eyebrow dark" style="margin-top:35px">INDEPENDENT DESIGN PROJECT · PROPOSAL</p>
+<span class="plan-meta">PLANNED — NOT YET EXECUTED</span>
+<h1>AI-Assisted Design Optimization and Multiphysics Validation of a Lightweight Electronics Mount</h1>
+<p class="intro" style="color:#47636b;max-width:800px">Proposed goal: explore the tradeoffs between mass, stiffness, mechanical mounting constraints and dynamic response in a parametric electronics bracket, then validate selected predictions with physical prototypes.</p>
+<div class="plan-grid">
+ <div class="plan-card"><strong>CAD + Design Exploration</strong><p>Parametric SolidWorks or comparable 3D models, candidate geometries, and documented design constraints.</p></div>
+ <div class="plan-card"><strong>Physics-Based Simulation</strong><p>Static stress and deformation; eigenfrequency/modal analysis; optional thermal stress if software and scope permit.</p></div>
+ <div class="plan-card"><strong>Fabrication + Verification</strong><p>Printed prototypes, controlled mechanical loading, and comparisons between predicted and measured behavior.</p></div>
+</div>
+<h2>Proposed engineering requirements</h2>
+<table class="plan-table"><thead><tr><th>Category</th><th>Initial study assumption</th></tr></thead><tbody>
+<tr><td>Application</td><td>Mounting bracket for a small electronics module or circuit board</td></tr>
+<tr><td>Payload and interface</td><td>Illustrative 150 g module mounted with four M3 fasteners, subject to revision</td></tr>
+<tr><td>Structural loads</td><td>Illustrative 5g and 10g quasi-static load cases</td></tr>
+<tr><td>Design objective</td><td>Reduce mass while meeting separately defined stress, deflection and stiffness criteria</td></tr>
+<tr><td>Analysis</td><td>Stress, deformation and modal properties; mesh-convergence checks</td></tr>
+<tr><td>Testing</td><td>Prototype mass and controlled-load deflection; optional vibration measurements</td></tr>
+</tbody></table>
+<h2>Proposed work plan</h2>
+<ol><li><strong>Baseline:</strong> define requirements, mounting geometry, materials, load cases and reference CAD configuration.</li>
+<li><strong>Exploration:</strong> use AI assistance and Python for documented parameter sweeps; verify generated code, dimensions and engineering assumptions independently.</li>
+<li><strong>Simulation:</strong> compare baseline and alternative designs using FEA with justified boundary conditions and mesh refinement.</li>
+<li><strong>Validation:</strong> fabricate selected configurations and compare measured results with analysis; explain discrepancies and limitations.</li>
+</ol>
+<h2>Planned evidence and deliverables</h2>
+<p>CAD assemblies and engineering drawings; a design-variable table; reproducible analysis scripts; structural and modal plots; prototype photos; a simulation-versus-test comparison; and a short technical report documenting design tradeoffs.</p>
+<div class="plan-note"><strong>Project status and attribution:</strong> This page describes a proposed independent study, not completed engineering work. No simulation results, hardware performance improvements, experimental validation, or formal faculty appointment are claimed. Any future results should be added only after Lina completes and verifies the work.</div>
+<p style="margin-top:34px"><a href="../index.html#ai-electronics-mount">← Return to the portfolio</a></p>
+</main><footer><div class="wrap foot"><span>© 2026 Lina H. Torlak</span><span>Proposed engineering study — no completed results claimed</span></div></footer></body></html>
