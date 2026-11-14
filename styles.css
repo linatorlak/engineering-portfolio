@@ -7,3 +7,13 @@
 
 /* Public student team affiliation */
 .affiliation{max-width:580px;margin:25px 0 10px;padding:17px 20px;border-left:3px solid #d5a17e;background:rgba(255,255,255,.055)}.affiliation-label{font-size:10px;letter-spacing:.15em;font-weight:800;color:#d5a17e}.affiliation p{font-size:14px;color:#e0e9e5;margin:7px 0 11px}.org-links{display:flex;flex-wrap:wrap;gap:18px}.org-links a{color:#e5ad87;text-decoration:underline;text-underline-offset:3px;font-size:12px;font-weight:700}.org-links a:hover{color:white}
+
+/* Clearly differentiated planned independent study */
+.planned-visual{background:#e6edea}
+.planned-viz{display:grid;gap:10px;padding:16px 10px}
+.planned-viz-label{font-size:10px;letter-spacing:.12em;font-weight:800;color:#607c7e}
+.planned-step{display:grid;grid-template-columns:32px 1fr;column-gap:10px;align-items:baseline;background:#f7faf6;border:1px solid #d0ddd8;border-radius:6px;padding:13px}
+.planned-step span{font-size:11px;color:#94674f;font-weight:800;grid-row:span 2}
+.planned-step strong{font-size:15px;color:#23414b}
+.planned-step small{font-size:12px;color:#637b7c}
+.project-roadmap-link{display:inline-block;color:#245d67;font-weight:800;text-underline-offset:4px}
