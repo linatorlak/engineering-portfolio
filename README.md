@@ -6,6 +6,7 @@ This repository hosts Lina's public mechanical engineering project portfolio.
 - Combat robot — wheel design and mechanical integration (Texas A&M TURTLE)
 - VR-controlled 4-DOF robotic arm — CAD and mechanical assembly design (Texas A&M TURTLE)
 - Lightweight bridge — SolidWorks, FEA, Python, fabrication and load testing
+- **Proposed independent study (planned)** — AI-assisted electronics mount design and FEA, with a [project plan](projects/ai-electronics-mount.html); no results claimed
 
 **TURTLE robotics organization:** https://github.com/turtle-robotics
 
